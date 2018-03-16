@@ -27,4 +27,10 @@ public class CalculatorMain {
 		// TODO Auto-generated method stub
 		return a*(a-1);
 	}
+	public int sqrt(int a)
+	{
+		int b=(int)Math.sqrt(a);
+		System.out.println("square root"+b);
+		return (int)Math.sqrt(a);
+}
 }
