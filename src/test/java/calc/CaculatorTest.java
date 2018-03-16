@@ -46,9 +46,12 @@ public class CaculatorTest {
    		assertEquals(2, calc.fact(2));
           }
        @Test
-   	public void testremaid() {
+   	public void testremaind() {
    		assertEquals(1, calc.remaind(7,3));
           }
-       
+       @Test
+    public void testIntegrate() {
+    	   assertEquals (4, calc.Sub(calc.add(3,3), calc.div(4, 2)));
+       }
 }
 

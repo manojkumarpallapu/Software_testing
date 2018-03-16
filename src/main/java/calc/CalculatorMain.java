@@ -30,7 +30,7 @@ public class CalculatorMain {
 	public int sqrt(int a)
 	{
 		int b=(int)Math.sqrt(a);
-		System.out.println("square root"+b);
+		System.out.println("sqrt is"+b);
 		return (int)Math.sqrt(a);
 }
 	public int remaind(int a, int b) {
