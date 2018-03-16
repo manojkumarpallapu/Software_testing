@@ -13,18 +13,18 @@ public class CaculatorTest {
 		calc = new CalculatorMain();
 	}
 	
+	//@Test
+	//public void testAdd() {
+		//assertEquals(5, calc.add(3,2));
+	//}
+	//@Test
+	//public void testSub() {
+	//	assertEquals(1, calc.Sub(3,2));
+	//}
 	@Test
-	public void testAdd() {
-		assertEquals(5, calc.add(3,2));
+	public void testMul() {
+		assertEquals(6, calc.mul(3,2));
 	}
-	@Test
-	public void testSub() {
-		assertEquals(1, calc.sub(3,2));
-	}
-//	@Test
-//	public void testMul() {
-//		assertEquals(6, calc.mul(3,2));
-//	}
 //	@Test
 //	public void testDiv() {
 //		assertEquals(1, calc.div(2,2));
@@ -37,4 +37,8 @@ public class CaculatorTest {
 //	public void testPresedence() {
 //		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 //	}
+	//@Test
+	//public void testSquare() {
+		//assertEquals(4, calc.Square(2));
+	//}
 }
