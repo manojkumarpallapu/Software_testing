@@ -6,12 +6,8 @@ public class CalculatorMain {
 	public int add(int a, int b){
 		return a+b;
 	}
-	 public int div(int a, int b) {
-	 if(b==0) {
-		 return 0;
-	 }
-	 else {
-		 return a/b;
-	 }
-   }
+	public Object Square(int a) {
+		// TODO Auto-generated method stub
+		return a;
+	}
 }
