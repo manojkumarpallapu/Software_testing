@@ -45,6 +45,10 @@ public class CaculatorTest {
    	public void testfact() {
    		assertEquals(2, calc.fact(2));
           }
+       @Test
+   	public void testremaid() {
+   		assertEquals(1, calc.remaind(7,3));
+          }
        
 }
 

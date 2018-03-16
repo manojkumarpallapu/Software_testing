@@ -33,4 +33,7 @@ public class CalculatorMain {
 		System.out.println("square root"+b);
 		return (int)Math.sqrt(a);
 }
+	public int remaind(int a, int b) {
+		return a%b;
+	}
 }
