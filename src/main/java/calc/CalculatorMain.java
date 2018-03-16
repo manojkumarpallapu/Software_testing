@@ -8,6 +8,6 @@ public class CalculatorMain {
 	}
 	public Object Square(int a) {
 		// TODO Auto-generated method stub
-		return a;
+		return a*a;
 	}
 }
